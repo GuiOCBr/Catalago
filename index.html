@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NaturalFarma</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="./images/planta-em-crescimento.png" type="image/x-icon">
+  <script src="./js/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div id="header">
+        <img id="soon-plant" src="./images/logo-minimalista.png" alt="plant">
+        <div id="sorted-list-navigation">
+          <ul>
+            <li class="list-navigation"><a class="catalog-navigation-page" href="#plant-catalog">Catálago</a></li>
+            <li class="list-navigation"><a class="catalog-navigation-page" href="#about">Sobre</a></li>
+            <li class="list-navigation"><a id="register" href="#registration-form">CRIAR CONTA</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="brain-background">
+      <img id="brain-image" src="/images/cerebro.jpg" alt="brain" />
+    </div>
+  </header>
+  <main>
+    <section>
+      <div id="about">
+        <div id="title-about">
+          <h2>Sobre</h2>
+        </div>
+        <div id="paragraph-about">
+          <p class="paragraph-group">
+            Os nootropicos naturais são conhecidos como turbinantes do nosso
+            cérebro. Os nootropicos naturais são utilizados para aumentar o
+            foco, a concentração e também podem auxiliar no nosso rendimento em
+            atividades que exigem grande esforço mental, assim como também são
+            muito utilizados para ajudar a melhorar a memória.
+          </p>
+          <p class="paragraph-group">Atualmente há centenas dessas substâncias catalogadas que funcionam de várias
+            maneiras. Mas, basicamente, a
+            ação dos nootrópicos tem como alvo principal os neurotransmissores. Estes atuam como mensageiros químicos,
+            transportando, estimulando e equilibrando os sinais entre neurônios, células nervosas e outras células do
+            corpo. Após sua liberação, o neurotransmissor atravessa a lacuna entre as células e se liga a outro
+            neurônio, estimulando ou inibindo o neurônio receptor, de acordo com a sua característica.
+            No caso dos nootrópicos, o foco maior de atuação está em transmissores ligados à concentração, cognição e
+            memória, como a acetilcolina, a dopamina e a noradrenalina.
+            A acetilcolina está envolvida no processo de formação de novas memórias e concentração, assim como no
+            aumento do metabolismo cerebral.
+          </p>
+          <p class="paragraph-group">
+            A dopamina é mais conhecida por sua participação no ciclo de recompensa, estimulando nosso cérebro a
+            completar tarefas. Além disso, a dopamina atua no controle de movimentos, aprendizado, cognição e memória.
+            A noradrenalina regula atividades como o sono e as emoções, causando sensação de bem-estar. Também
+            relaciona-se com processos cognitivos de aprendizagem, criatividade e memória.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="plant-catalog">
+        <div class="catalog-images-one">
+          <img class="product-image" src="./images/omega3.avif" alt="alecrim" />
+          <p class="paragraph-product" id="paragraph-one">Esse nootrópico popular no mundo todo, auxilia no
+            desenvolvimento cerebral, especialmente nas crianças, bem como na preservação da função cerebral normal em
+            adultos. </p>
+          <button class="seek" onClick="show('paragraph-one')">Saiba mais</button>
+        </div>
+        <div class="catalog-images-one">
+          <img class="product-image" src="./images/Lteanina.webp" alt="cha_verde" />
+          <p class="paragraph-product" id="paragraph-two">Aminoácido encontrado nas folhas de chá verde que estimula a
+            produção de serotonina, dopamina e GABA, neurotransmissores que influenciam diretamente no humor, memória e
+            aprendizagem.</p>
+          <button class="seek" onClick="show('paragraph-two')">Saiba mais</button>
+        </div>
+        <div class="catalog-images-one">
+          <img class="product-image" src="./images/magnesio.webp" alt="ginko_biloba" />
+          <p class="paragraph-product" id="paragraph-three"> Suplemento capaz melhorar a função do Cérebro, contribuindo
+            para o aumento das funções cognitivas como a memória, concentração e aprendizagem.</p>
+          <button class="seek" onClick="show('paragraph-three')">Saiba mais</button>
+        </div>
+        <div class="catalog-images-two">
+          <img class="product-image" src="./images/coezimaq10.png" alt="juba_leao" />
+          <p class="paragraph-product" id="paragraph-four"> Nutriente encontrado naturalmente nas células do corpo
+            humano. Poderosa aliada na reparação celular e na produção de energia, ela também tem ação antioxidante.</p>
+          <button class="seek" onClick="show('paragraph-four')">Saiba mais</button>
+        </div>
+        <div class="catalog-images-two">
+          <img class="product-image" src="./images/bacopa-monnieri.webp" alt="valeriana" />
+          <p class="paragraph-product" id="paragraph-five">Essa planta é muito utilizada pela medicina ayurvédica e sua
+            função principal é melhorar o desempenho cerebral, aumentando a capacidade de aprendizagem.</p>
+          <button class="seek" onClick="show('paragraph-five')">Saiba mais</button>
+        </div>
+        <div class="catalog-images-two">
+          <img class="product-image" src="./images/cafeina.webp" alt="bacopa_monnieri" />
+          <p class="paragraph-product" id="paragraph-six">Assim como outros nootrópicos naturais e também populares,
+            como chocolate e tabaco, a cafeína simula o neurotransmissor adenosina que tem um papel inibitório no
+            cérebro.
+          </p>
+          <button class="seek" onClick="show('paragraph-six')">Saiba mais</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section>
+    <div id="registration-form">
+      <form method="post" action="#">
+        <img id="plant-form" src="./images/logo-minimalista.png" alt="plant">
+        <input class="input-form" type="text" placeholder="Nome" />
+        <input class="input-form" type="email" placeholder="Email" />
+        <input class="input-form" type="password" placeholder="Senha" />
+        <div id="block-button-form"><button id="button-form">Cadastrar</button></div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div id="baseboard">
+      <p class="content-browse">Contatos</p>
+      <ul>
+        <li class="list-browse"><a class="link-browse"
+            href="https://usegreenco.com.br/blogs/pense-mais-verde/conheca-os-18-nootropicos-que-podem-turbinar-seu-cerebro"
+            target="_blank">NaturalFarma.com.br</a></li>
+        <li class="list-browse"><a class="link-browse" href="tel: +553232184598">+55 32 3218-4598</a></li>
+      </ul>
+      <a class="content-browse" href="https://github.com/GuiOCBr" target="_blank">@GuilhermeOliveira</a>
+      <div>
+  </footer>
+  <script>
+  </script>
+</body>
+
+</html>
