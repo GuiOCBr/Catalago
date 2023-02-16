@@ -32,4 +32,4 @@ https://user-images.githubusercontent.com/124690025/219362822-54414cd7-8994-465d
 
 ## 📁 Acesso ao projeto
 
-Você pode acessar o [código fonte] ou [baixá-lo]
+Você pode [
