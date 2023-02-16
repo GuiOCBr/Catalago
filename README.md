@@ -32,4 +32,4 @@ https://user-images.githubusercontent.com/124690025/219362822-54414cd7-8994-465d
 
 ## 📁 Acesso ao projeto
 
-Você pode [
+Você pode [baixa-lo](https://github.com/GuiOCBr/Catalago/archive/refs/heads/main.zip) por aqui.
